@@ -19,7 +19,7 @@ I have no idea if these scripts work on Mac or Linux. Feel free to let me know i
         <li>Type in anything you want in the save name field (both name and file type don't matter) or click an already existing file in the folder.</li>
         <li>Click save. Note, files with the same name as an exported layer will be overwritten.</li>
         <ul>
-            <li>Alternatively, you can copy and paste your output folder path into the text entry field. Make sure the last character is `\` if on Windows, or `/` on any other platform. Example: `.../files/folder/path/`</li>
+            <li>Alternatively, you can copy and paste your output folder path into the text entry field. Make sure the last character is <code>\</code> if on Windows, or <code>/</code> on any other platform. Example: <code>.../files/folder/path/</code></li>
         </ul>
         <li>Select the file type you want the layers exported as.</li>
         <li>Select the frames you want exported.</li>
@@ -54,7 +54,7 @@ I have no idea if these scripts work on Mac or Linux. Feel free to let me know i
         <li>File > Scripts > ImportFolder</li>
         <li>Select a file within the computer folder that you plan to import and click "Open".</li>
         <ul>
-            <li>Alternatively, you can copy and paste your input folder path into the text entry field. Make sure the last character is `\` if on Windows, or `/` on any other platform. Example: `.../files/folder/path/`</li>
+            <li>Alternatively, you can copy and paste your input folder path into the text entry field. Make sure the last character is <code>\</code> if on Windows, or <code>/</code> on any other platform. Example: <code>.../files/folder/path/</code></li>
         </ul>
         <li>Pick which file types you want imported.</li>
         <ul>
@@ -84,7 +84,7 @@ I have no idea if these scripts work on Mac or Linux. Feel free to let me know i
         <li>Type in anything you want in the save name field (both name and file type don't matter) or click an already existing file in the folder.</li>
         <li>Click save. Note, files with the same name as an exported card (background layer name + foreground layer name) will be overwritten.</li>
         <ul>
-            <li>Alternatively, you can simply copy and paste your output folder path into the text entry field. Make sure the last character is `\` if on Windows, or `/` on any other platform. Example: `.../files/folder/path/`</li>
+            <li>Alternatively, you can simply copy and paste your output folder path into the text entry field. Make sure the last character is <code>\</code> if on Windows, or <code>/</code> on any other platform. Example: <code>.../files/folder/path/</code></li>
         </ul>
         <li>Select the file type you want the cards exported as.</li>
         <li>Select the frames you want exported.</li>
@@ -103,10 +103,10 @@ I have no idea if these scripts work on Mac or Linux. Feel free to let me know i
         <ul>
             <li>This means you don't have to copy paste the background cel under the foreground cels. Even if you use "Range" and select a range that doesn't include the first frame.</li>
             <li>Conversely, this also means you'll have to uncheck this feature if you have multiple backgrounds you want to use for specific frames.</li>
-            <li>If you find yourself unchecking this option a lot, go in the script and change `dlg:check{id = "oneFrame", label = "Background(s) is one frame:", selected = true}` from `true` to `false`.</li>
+            <li>If you find yourself unchecking this option a lot, go in the script and change <code>dlg:check{id = "oneFrame", label = "Background(s) is one frame:", selected = true}</code> from <code>true</code> to <code>false</code>.</li>
         </ul>
     </ol>
-    Why did you make this?:
+    Why did you make this?
     <ul>
         <li>I like making cards. I wanted a fast way to export cards in a way that complimented my work flow.</li>
         <ul>
@@ -136,7 +136,7 @@ I have no idea if these scripts work on Mac or Linux. Feel free to let me know i
             <li>Target Layer = The layer the selected layers will be inserted.</li>
         </ul>
     </ol>
-    Why did you make this?:
+    Why did you make this?
     <ul>
         <li>I wanted to export a packed sprite sheet of all my layers, but you're not allowed to have duplicates for packed sheets. So I wanted a non-destructive way to quickly put the cels from each layer I want into one layer. By doing things this way, I can copy and paste the cels in groups within the layer once they're imported. Versus manually copy and pasting each cel into the layer first. Then I can export my layer as a sprite sheet with rows/columns, which supports duplicates.</li>
     </ul>
